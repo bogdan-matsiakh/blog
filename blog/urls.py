@@ -3,10 +3,11 @@ from django.conf.urls import patterns, include, url
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
+from news import views
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'blog.views.index'),
+    url(r'^$', 'news.views.index'),
     # url(r'^blog/', include('blog.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
