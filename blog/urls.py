@@ -8,6 +8,7 @@ from news import views
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'news.views.index'),
+    url(r'^timebank$', 'news.views.timebank'),
     # url(r'^blog/', include('blog.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

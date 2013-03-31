@@ -6,3 +6,6 @@ from django.db.models import Q
 
 def index(request):
     return render_to_response('index.html')
+
+def index(request):
+    return render_to_response('timebank.html')

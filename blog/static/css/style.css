@@ -1,0 +1,4 @@
+h1,h2,h3,h4,h5,h6 {text-align:center;}
+.column2 {width:45%;display:block;}
+.column2.left{float:left;}
+.column2.right{float:right;}
