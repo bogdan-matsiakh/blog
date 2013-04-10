@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'news.views.index'),
     url(r'^timebank$', 'news.views.timebank'),
+    url(r'^wave$', 'news.views.wave'),
     # url(r'^blog/', include('blog.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

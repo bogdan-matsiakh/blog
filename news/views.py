@@ -9,3 +9,6 @@ def index(request):
 
 def timebank(request):
     return render_to_response('timebank.html')
+
+def wave(request):
+    return render_to_response('wave.html')
