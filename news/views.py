@@ -5,7 +5,8 @@ from django.http import HttpResponse
 from django.db.models import Q
 
 def index(request):
-    return render_to_response('index.html')
+    #return render_to_response('index.html')
+    return HttpResponse('Unauthorized', status=401)
 
 def timebank(request):
     return render_to_response('timebank.html')
